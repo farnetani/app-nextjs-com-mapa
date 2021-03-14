@@ -35,6 +35,7 @@ export const Gallery = styled.div`
       #f6f7f8 100%
     );
     background-size: 80rem 14rem;
+    /* animação pra dar a sensação de carregando */
     animation: placeholderShimmer 1s linear infinite forwards;
     @keyframes placeholderShimmer {
       0% {
